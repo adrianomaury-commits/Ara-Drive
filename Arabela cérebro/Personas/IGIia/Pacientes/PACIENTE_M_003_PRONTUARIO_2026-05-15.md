@@ -12,12 +12,12 @@
 - 👥 Participantes: PACIENTE_M_003 (paciente sozinho)
 - 🩺 Tipo: revisão longitudinal (3 meses após última consulta)
 - 💻 Modalidade: telemedicina (vídeo-chamada via Doctoralia, WhatsApp falhando)
-- 📍 Local: Freguesia / Jacarepaguá (paciente em casa)
+- 📍 Local: paciente em casa (mora sozinho)
 - 🕒 Data: 15/05/2026 ~11:30 BRT
-- 🧭 Origem: paciente antigo (depressão grave prévia, hoje estável)
+- 🧭 Origem: paciente antigo (depressão pesada prévia, hoje estável)
 - 💰 Tipo pagamento: particular
-- 🏠 Rede psicossocial: divorciado, filho (estuda na Freguesia), morando perto escola filho
-- 🧑‍⚕️ Rede terapêutica: psicóloga Janete (ativa, Adriano vai enviar relatório completo), próxima talvez Marília
+- 🏠 Rede psicossocial: **23 anos, mora sozinho, PERDEU FAMÍLIA TODA há um tempo (luto/trauma fundante), NUNCA teve relacionamento ainda** — Adriano estimulando ATIVAR (não-retomar) vida social/relacionamentos pela primeira vez
+- 🧑‍⚕️ Rede terapêutica: psicóloga Janete (ativa, Adriano vai enviar relatório completo), possível troca para Marília
 - 🔬 Pesquisas: -
 - 🎯 Pontuação: prata
 - 📢 Avaliação: estável, sem necessidade intervenção
@@ -61,26 +61,27 @@ Revisão de rotina pós-3 meses. Paciente estável, emagrecimento progressivo (v
 
 ## 3. História dinâmica do paciente
 
-Paciente masculino, ~30-40 anos (idade não-explicita), divorciado, pai de filho em idade escolar (estuda na Freguesia). Mudou-se da Zona Sul para Barra → Freguesia/Jacarepaguá após divórcio para estar perto da escola do filho. Histórico de depressão grave que respondeu a combinação Lamotrigina + Atomoxetina (esquema acertado após dificuldade).
+Paciente masculino, **23 anos**, mora sozinho. **Perdeu a família toda há um tempo** (evento fundante de luto). Histórico de **depressão pesada** que respondeu a combinação Lamotrigina + Atomoxetina (esquema acertado após dificuldade).
 
 **Evolução recente:**
 - Emagrecimento progressivo (visível pela câmera, camisa mais folgada, rosto fino)
 - Atividade física regular: segunda + quarta (+ terça + sábado às vezes)
 - Animado com academia, energia preservada
 - Sintomas novos: sudorese excessiva + fasciculações
-- Sem relacionamento ativo pós-divórcio
+- **Nunca teve relacionamento** — Adriano estimulando ATIVAR (primeiro relacionamento) pela primeira vez
 - Acompanhamento psicoterapia ativa (Janete, possível troca pra Marília)
 
 **Contexto social:**
-- Adaptação ao novo bairro (Freguesia/Jacarepaguá): gosta, mas não habituado
-- Comparação espontânea: zona sul (Botafogo/Catete/Flamengo) familiar vs Freguesia novo
-- Filho na escola perto = motor da escolha
-- Sem ambiente social ativo ainda (cobrança Adriano para retomar)
+- Vivendo solitariamente pós-luto família
+- Sem ambiente social ativo ainda (cobrança Adriano: "buscar coisas que nem teve ainda")
+- Adriano explica: paciente "já está ativo agora" (estabilizado) → momento de buscar vida pela primeira vez
 
 **Antecedentes relevantes:**
-- Depressão grave pré-tratamento atual
-- Combinação medicamentosa difícil de achar
-- Possível origem italiana (sobrenome a-confirmar)
+- Depressão pesada pré-tratamento atual (Adriano: "foi difícil a depressão, meu Deus")
+- Combinação medicamentosa difícil de achar (sucesso atual)
+- Luto família toda — trauma fundante a-explorar terapia
+- Possível origem italiana (sobrenome a-confirmar via busca-proativa)
+- **Erro pré-correção T060:** versão anterior deste prontuário deduziu divorciado+filho+mudança-Freguesia. Mea culpa Comunicadora3. Rule 192 nova: não-deduzir-sem-evidência.
 
 ---
 
@@ -144,9 +145,11 @@ Paciente masculino, ~30-40 anos (idade não-explicita), divorciado, pai de filho
 
 ### Orientações de vida
 - Continuar academia (suor é normal)
-- Retomar vida social pós-depressão (aplicativos namoro, ambientes sociais)
-- Avaliar consulta presencial futura (paciente está bem, valeria conhecer pessoalmente)
+- **INICIAR vida social pela primeira vez** (aplicativos namoro, ambientes sociais) — paciente nunca teve relacionamento
+- Adriano: "antes deprimido, muito tempo afastado de movimentos. Agora ativo, importante esse movimento de vida"
+- Avaliar consulta presencial futura
 - Adriano vai enviar relatório completo para psicóloga (Janete)
+- Acompanhamento luto família (terapia psicológica como contexto principal)
 
 ### Coordenação especialistas
 - Endocrinologista próxima semana (exame amplo + nutricionista)
