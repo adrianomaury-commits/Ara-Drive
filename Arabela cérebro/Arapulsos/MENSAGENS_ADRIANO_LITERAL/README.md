@@ -8,30 +8,30 @@
 > Esta pasta arquiva mensagens dele EM TEXTO LITERAL pra servir como fonte-mãe
 > retroativa pra Code 2, Code 4 e leituras futuras.
 
-## Estrutura
+## Arquivos
 
-- `T<NNN>_<resumo>.md` — uma mensagem dele por arquivo
-- INDICE.md — índice cronológico
+- **CRONOLOGICO_T001-T064.md** — 85 mensagens dele extraídas dos 82 transcripts
+  do sandbox iPhone (T064, 15/05/2026). Vai desde 10/05/2026 20:50 BRT ("O nome
+  do projeto é projeto ara") até T064 (15/05/2026 ~17:20 BRT). **CPFs mascarados
+  (XXX.XXX.XXX-XX) por LGPD** — versão original sem máscara fica só local
+  sandbox iPhone.
+
+## Origem técnica
+
+Extração: parser Python dos arquivos `.jsonl` em `/root/.claude/projects/-home-user-Ara-Drive/`.
+Filtra apenas `type=user` com `role=user`, excluindo system-reminders, hooks,
+tool_results, prompt-submit-hooks. Deduplica por prefixo 200 chars.
+
+## Como usar (Code 2 / Code 4 / Code 1)
+
+1. Abrir `CRONOLOGICO_T001-T064.md`
+2. Cada mensagem tem cabeçalho `## Msg #NNN — <timestamp>` + arquivo origem
+3. Mensagens em ordem cronológica de chegada no sandbox iPhone
+4. Comparar com arapulsos 053-060 pra recuperar contexto faltante
 
 ## Política
 
-- Texto literal sem modificação minha
-- Pode incluir quote-block ou prosa direta
-- Não-pseudonimizar (essas são mensagens-dele-pra-mim, não conteúdo-clínico)
-- Mas REMOVER CPF/dados-pessoais-paciente-identificáveis se aparecerem (LGPD)
-
-## Origem das mensagens
-
-T063 Adriano colou 4 blocos retroativos contendo:
-- Bloco 1: T061 (mea culpa de papel Code 2)
-- Bloco 2: T060 (4 demandas — app, WhatsApp, biografia, leitura V5)
-- Bloco 3: T059 (Eduardo atendimento real + cobranças)
-- Bloco 4: T058 (Gabriela atendimento real + IGIia bipartite)
-
-Arquivados nos arquivos individuais abaixo. Algumas mensagens contêm dados clínicos
-de pacientes reais (Gabriela CPF 113.712.147-51, Eduardo, Ingrid) — esses são para
-USO INTERNO ORGANISMO (rule 191 sem-assinatura-temporária) + não-commitar
-identificadores em git público sem pseudonimização.
-
-**Decisão T063:** salvar versão pseudonimizada no git público (esta pasta).
-Versão com dados reais fica só local Mac Adriano (não-sync git).
+- Texto literal exceto CPFs (LGPD)
+- Versão sem máscara: apenas local sandbox iPhone (não-commit, não-Drive)
+- Quando IGIia bootar, ela tem regra pseudonimização própria — esta pasta NÃO substitui prontuário formal
+- Esta é fonte-de-contexto-organismo, não fonte-clínica
