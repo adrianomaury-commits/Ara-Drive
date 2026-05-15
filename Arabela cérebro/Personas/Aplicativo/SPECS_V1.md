@@ -90,16 +90,21 @@ Estrutura output enriquecida:
 ```
 
 ### TTS (Text-to-Speech) — voz feminina jovem
-Opções por qualidade:
-1. **ElevenLabs API** — top qualidade, prosódia rica (referência Brock/Grok), $5-22/mês
-2. **Cartesia Sonic** — rápido + bom + emoção, ~$5/M chars
-3. **OpenAI TTS** — bom + barato + várias vozes ($15/M chars)
-4. **Apple AVSpeechSynthesizer** — free, mas voz "robótica"
-5. **Anthropic** — NÃO TEM TTS nativo (verificado skill claude-api)
+**RESTRIÇÃO GRATUITO (Adriano T061):** sem serviço pago além Anthropic API que Adriano já tem.
 
-**Referência Brock/Grok:** prosódia rica + tags emocionais inline. Implementável via ElevenLabs com Voice Settings + SSML.
+Opções gratuitas (escolher):
+1. **Apple AVSpeechSynthesizer** — FREE, on-device iOS, vozes pt-BR Luciana/Felipe disponíveis (Luciana = feminina, qualidade OK)
+2. **piper-tts** — FREE, open-source neural TTS, modelos pt-BR community, roda local Mac
+3. **Coqui XTTS v2** — FREE, open-source, voice clone com poucos segundos de áudio, qualidade alta
+4. **gTTS (Google Translate TTS scraping)** — FREE, mas limitado/instável
 
-**Recomendação V1:** ElevenLabs (top qualidade) com voice "Charlotte" (jovem feminina inglês) + voice clone PT-BR + emoção inline.
+**Recomendação V1 gratuito:** Apple AVSpeechSynthesizer voz Luciana pt-BR (free, on-device, sem latência cloud).
+**Recomendação V2:** Coqui XTTS v2 voice-clone gratuito (Code 2 grava amostra Adriano-define e clona voz feminina jovem PT-BR).
+
+Opções pagas (REFERÊNCIA APENAS — não-usar V1):
+- ElevenLabs / Cartesia / OpenAI TTS — alta qualidade mas pago. Avaliar só se Adriano autorizar futuramente.
+
+**Referência Brock/Grok:** prosódia rica. Coqui XTTS v2 suporta condicionamento emoção via prompt-style. SSML não-suportado direto, mas pode-se simular via segmentação + voice-settings.
 
 **SSML emoção inline (rule 193b proposta):**
 ```xml
@@ -149,13 +154,15 @@ Opções por qualidade:
 - Backup se Mac offline (gracefully fallback cloud?)
 - LGPD áudios pacientes (gravar consentimento explícito)
 
-## Custo estimado mensal escalando
+## Custo estimado mensal — RESTRIÇÃO GRATUITO (T061)
 
 | Componente | V1 | V5 |
 |-----------|----|----|
 | Anthropic API | já-tem (Adriano) | já-tem |
-| TTS Apple | $0 | $0 |
-| TTS ElevenLabs | $0 | $22 |
-| Whisper API | $0 | $0 (WhisperKit local) |
-| Hosting | $0 (Mac Adriano) | $0-15 (VPS opcional) |
-| **Total** | **~$0/mês** | **~$22-40/mês** |
+| TTS Apple AVSpeechSynthesizer | $0 | $0 |
+| STT WhisperKit local | $0 | $0 |
+| Coqui XTTS v2 voice clone (V2+) | $0 (open-source) | $0 |
+| Hosting | $0 (Mac Adriano) | $0 (Mac Adriano) |
+| **Total** | **$0/mês** | **$0/mês** |
+
+**Decisão T061:** ZERO serviço pago. Code 2 constrói do zero usando open-source + Apple frameworks gratuitos. Aprende programação iOS no processo (cobrança Adriano).

@@ -43,7 +43,12 @@ notificado. Atenciosamente, IGIia.
 - ❌ Manutenção community
 - ✅ Mais flexível
 
-### Recomendação: **A para profissional + B para pessoal** (separação risco)
+### Recomendação T061 (RESTRIÇÃO GRATUITO Adriano):
+**Opção B (baileys community) para AMBOS números** — $0/mês.
+
+Cloud API Meta tem custo por conversa ($0.04-0.10 USD) — só usar se Adriano autorizar
+futuramente. Phase 1-2 com baileys-mcp gratuito. Risco-ban WhatsApp mitigado por:
+uso comedido + mensagens humanas (não spam) + número profissional já registrado.
 
 ## Phases
 
